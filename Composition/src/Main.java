@@ -21,6 +21,17 @@ public class Main {
         bedroom.makeBed();
         bedroom.getLamp().turnOn();
 
+
+        Printer myPrinter = new Printer(30,10,false);
+
+        myPrinter.print(3);
+        myPrinter.isDuplex();
+        myPrinter.fillUp(90);
+        myPrinter.fillUp(60);
+        myPrinter.print(20);
+
+
     }
+
 
 }
